@@ -177,7 +177,7 @@ function animate() {
     phone.draw();
 
     // failsafe
-    if (timer == 1000) {
+    if (timer == 2000) {
         cta.x = innerWidth/2;
     }
     cta.draw();
